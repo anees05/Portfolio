@@ -11,7 +11,28 @@ class Home extends Component {
                         <img
                             src={Image}
                             alt="Anees Adams"
+                            className="img"
                         />
+
+                        <div className="banner-text">
+                            <h1>Full Stack Web Developer</h1>
+                            <hr />
+                            <p>
+                                HTML/CSS | Bootstrap | Javascript | React | NodeJS | Express | MongoDB | MySQL
+                            </p>
+
+                            <div className="social-links">
+                                {/*LinkedIn */}
+                                <a href="https://www.linkedin.com/in/anees-adams-606043188/" rel="noopener noreferrer" target="blank">
+                                    <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+                                </a>
+                                {/*Github */}
+                                <a href="https://github.com/anees05" rel="noopener noreferrer" target="blank">
+                                    <i className="fa fa-github-square" aria-hidden="true"></i>
+                                </a>
+                            </div>
+
+                        </div>
                     </Cell>
                 </Grid>
             </div>
