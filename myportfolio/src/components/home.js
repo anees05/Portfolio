@@ -18,7 +18,7 @@ class Home extends Component {
                             <h1>Full Stack Web Developer</h1>
                             <hr />
                             <p>
-                                HTML/CSS | Bootstrap | Javascript | React | NodeJS | Express | MongoDB | MySQL
+                                HTML/CSS | Bootstrap | Javascript | HandleBars | React | NodeJS | Express | MongoDB | MySQL
                             </p>
 
                             <div className="social-links">
