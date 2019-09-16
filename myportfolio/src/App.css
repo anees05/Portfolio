@@ -16,6 +16,10 @@ width: 100%;
 height: 100%;
 }
 
+.projects-grid {
+  display: flex;
+}
+
 .img {
   height: 350px;
   padding-top: 3em;
