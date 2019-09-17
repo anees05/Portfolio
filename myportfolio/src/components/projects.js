@@ -13,32 +13,56 @@ class Projects extends Component {
                 <div className="projects-grid">
                     <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
                         <Button colored style={{ width: "100%", height: "100%" }}>
-                            <a href="https://anees05.github.io/bamazonCustomer/" rel="noopener noreferrer" target="blank">
-                                <CardTitle style={{ color: "#fff", height: "176px", background: "url(https://snipboard.io/pRNkys.jpg) center / cover" }}>Project #1
+                            <a href="https://anees05.github.io/Project-1/" rel="noopener noreferrer" target="blank">
+                                <CardTitle style={{ color: "black", height: "176px", background: "url(https://snipboard.io/1TFmaG.jpg) center / cover" }}>Project #1
                             </CardTitle>
                             </a>
                         </Button>
                         <CardText>
-                            A NodeJS Bamazon store.
+                            Event hunters is a web app that allows the user to search for events in their area.
                         </CardText>
                         <CardActions border>
-                            <Button colored style={{ width: "100%" }}><a href="https://github.com/anees05/bamazonCustomer" rel="noopener noreferrer" target="blank">Github</a></Button>
+                            <Button colored style={{ width: "100%" }}><a href="https://github.com/anees05/Project-1" rel="noopener noreferrer" target="blank">Github</a></Button>
                         </CardActions>
                         <CardMenu style={{ color: "#fff" }}>
                         </CardMenu>
                     </Card>
 
                     <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-                        <CardTitle style={{ color: "#fff", height: "176px", background: "url() center / cover" }}>Project #2</CardTitle>
+                        <Button colored style={{ width: "100%", height: "100%" }}>
+                            <a href="https://jobs-r-us.herokuapp.com/" rel="noopener noreferrer" target="blank">
+                                <CardTitle style={{ color: "black", height: "176px", background: "url(https://snipboard.io/IFKXGx.jpg) center / cover" }}>Project #2
+                            </CardTitle>
+                            </a>
+                        </Button>
                         <CardText>
-                            Lorem Ipsum
+                            Jobs-R-Us is a web app that allows users to make searches for job information.
                         </CardText>
                         <CardActions border>
-                            <Button colored style={{ width: "100%" }}><a href="https://github.com/anees05" rel="noopener noreferrer" target="blank">Github</a></Button>
+                            <Button colored style={{ width: "100%" }}><a href="https://github.com/anees05/JobStuff2" rel="noopener noreferrer" target="blank">Github</a></Button>
                         </CardActions>
                         <CardMenu style={{ color: "#fff" }}>
                         </CardMenu>
                     </Card>
+
+                    <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+                        <Button colored style={{ width: "100%", height: "100%" }}>
+                            <a href="https://glacial-savannah-65289.herokuapp.com/" rel="noopener noreferrer" target="blank">
+                                <CardTitle style={{ color: "black", height: "176px", background: "url(https://snipboard.io/kauSd3.jpg) center / cover" }}>Project #3
+                            </CardTitle>
+                            </a>
+                        </Button>
+                        <CardText>
+                            Jobs-R-Us is a web app that allows users to make searches for job information.
+                        </CardText>
+                        <CardActions border>
+                            <Button colored style={{ width: "100%" }}><a href="https://github.com/Tim1986/RoadTripDJ" rel="noopener noreferrer" target="blank">Github</a></Button>
+                        </CardActions>
+                        <CardMenu style={{ color: "#fff" }}>
+                        </CardMenu>
+                    </Card>
+
+
                 </div>
             )
             // } else if (this.state.activeTab === 1) {
