@@ -63,6 +63,12 @@ height: 100%;
   margin-left: 3rem;
 }
 
+.resume {
+  background: #27221f;
+  color: white;
+  padding: 2em;
+}
+
 .img {
   height: 350px;
   padding-top: 3em;
