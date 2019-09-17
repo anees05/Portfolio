@@ -19,6 +19,7 @@ function App() {
         </Header>
         <Drawer title="Title">
           <Navigation>
+            <Link to="/">Home</Link>
             <Link to="/Resume">Resume</Link>
             <Link to="/About">About</Link>
             <Link to="/Projects">Projects</Link>
