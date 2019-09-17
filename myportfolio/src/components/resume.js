@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
-import Education from "./education"
+import Education from "./education";
+import Experience from "./experience";
+import Skills from "./skills";
 
 class Resume extends Component {
     render() {
@@ -31,8 +33,56 @@ class Resume extends Component {
                     <Cell className="resume" col={8}>
                         <h2>Education</h2>
                         <Education
-                            year={2019}
+                            date={"June 2019 - September 2019"}
+                            schoolName="University of North Carolina at Charlotte"
+                            schoolDescription="Full Stack Web Developer Bootcamp"
                         />
+                        <hr style={{ borderTop: "3px solid #283c86" }} />
+
+                        <h2>Experience</h2>
+                        <Experience
+                            startYear={2017}
+                            endYear={2019}
+                            jobName={"North Face Stock Manager"}
+                            jobDescription={"•  Assists management with transfers, promotions, and unification of work to insure their accuracy"}
+                            jobDescription2={"•	Designate tasks, review work, and provide detailed direction to coworkers guaranteeing that processes are met in established timelines."}
+                            jobDescription3={"•	Assist management with loss prevention efforts, while providing proactive customer service."}
+                            jobDescription4={"•	Professionally identifies areas of improvement and establish innovative work procedures."}
+                            jobDescription5={"•	Ensure proper systems are accurate to support management team with inventory."}
+                            jobDescription6={"•	Assist with inventory preparations and practices."}
+                            jobDescription7={"•	Ensure that store operations are correct and provide detailed information for company audits. "}
+                        />
+
+                        <Experience
+                            startYear={2015}
+                            endYear={2016}
+                            jobName={"Nike Outlet Footwear Associate"}
+                            jobDescription={"•  Welcomed guests as they entered the store and engage in conversation to determine their shoe buying needs."}
+                            jobDescription2={"•	Provided guests with information on available styles, sizes, and colors."}
+                            jobDescription3={"•	Assist guests with trying on shoes while providing useful feedback."}
+                            jobDescription4={"•	Made sure the shoe department was kept clean and organized."}
+                            jobDescription5={"•	Ran guests through the payment procedure by processing card and cash transactions."}
+                            jobDescription6={"•	Worked with co-workers and supervisors to accomplish goals."}
+                        />
+                        <hr style={{ borderTop: "3px solid #283c86" }} />
+                        <h2>Skills</h2>
+                        <Skills
+                            skill="Javascript"
+                            progress={75}
+                        />
+                        <Skills
+                            skill="React"
+                            progress={60}
+                        />
+                        <Skills
+                            skill="NodeJS"
+                            progress={80}
+                        />
+                        <Skills
+                            skill="Express"
+                            progress={80}
+                        />
+
                     </Cell>
                 </Grid>
             </div>
