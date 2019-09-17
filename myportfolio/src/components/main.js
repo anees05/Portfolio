@@ -8,7 +8,7 @@ import Projects from "./projects";
 
 const Main = () => (
     <Switch>
-        <Route exact path="/Portfolio" component={Home} />
+        <Route exact path="/Portfolio/" component={Home} />
         <Route exact path="/" component={Home} />
         <Route path="/Contact" component={Contact} />
         <Route path="/Resume" component={Resume} />
