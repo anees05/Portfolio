@@ -13,12 +13,12 @@ class Resume extends Component {
                         <div>
                             <h2>Anees Adams</h2>
                             <h4 style={{ color: "grey" }}> Full Stack Web Developer</h4>
-                            <hr style={{ borderTop: "3px solid #283c86", width: "50%" }} />
+                            <hr style={{ borderTop: "3px solid #45a247", width: "50%" }} />
                             <p>I am a front-end web developer with a background in exercise science.
                                 I earned a certificate in Full Stack Web Development from University of North Carolina at Charlotte.
                                 I use HTML5, CSS3, JavaScript, jQuery, Node.js, MySQL, Sequelize, MongoDB, Mongoose, and Git.
                                 I love UX-Design, logical thinking, and work well with people.</p>
-                            <hr style={{ borderTop: "3px solid #283c86", width: "50%" }} />
+                            <hr style={{ borderTop: "3px solid #45a247", width: "50%" }} />
                             <h5>Address</h5>
                             <p>9700 Commons East Drive Charlotte, NC</p>
                             <h5>Phone</h5>
@@ -27,7 +27,7 @@ class Resume extends Component {
                             <p>anees.adams05@gmail.com</p>
                             <h5>Website</h5>
                             <p>aneesadams.dev</p>
-                            <hr style={{ borderTop: "3px solid #283c86", width: "50%" }} />
+                            <hr style={{ borderTop: "3px solid #45a247", width: "50%" }} />
                         </div>
                     </Cell>
                     <Cell className="resume" col={8}>
@@ -37,7 +37,7 @@ class Resume extends Component {
                             schoolName="University of North Carolina at Charlotte"
                             schoolDescription="Full Stack Web Developer Bootcamp"
                         />
-                        <hr style={{ borderTop: "3px solid #283c86" }} />
+                        <hr style={{ borderTop: "3px solid #45a247" }} />
 
                         <h2>Experience</h2>
                         <Experience
@@ -64,7 +64,7 @@ class Resume extends Component {
                             jobDescription5={"•	Ran guests through the payment procedure by processing card and cash transactions."}
                             jobDescription6={"•	Worked with co-workers and supervisors to accomplish goals."}
                         />
-                        <hr style={{ borderTop: "3px solid #283c86" }} />
+                        <hr style={{ borderTop: "3px solid #45a247" }} />
                         <h2>Skills</h2>
                         <Skills
                             skill="Javascript"
