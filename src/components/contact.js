@@ -9,11 +9,11 @@ class Contact extends Component {
             <div className="contact-body">
                 <Grid className="contact-grid">
                     <Cell col={6}>
-                        <h2>Anees Adams</h2>
+                        <h2>About Me</h2>
                         <img
-                            src={Image}
-                            alt="anees"
-                            style={{ height: "250px" }}
+                        // src={Image}
+                        // alt="anees"
+                        // style={{ height: "250px" }}
                         />
                         <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
                             A motivated, ambitious person who has developed a mature and responsible approach to any task that I undertake, or situations that I am presented with. I am a full-stack Web Developer with a background in Exercise Science. I earned a certificate in Full-Stack Web Development from the University of North Carolina at Charlotte. I used HTML5, CSS3, JavaScript, jQuery, Node.js, MySQL, Sequelize, MogoDB, Mongoose, and Git. I enjoy UX-Design, logical thinking, and working professionally within a team. I look forward to being able to execute my skills while continuing to learn and develop new techniques that are expected for my career.

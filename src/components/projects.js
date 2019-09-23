@@ -19,8 +19,7 @@ class Projects extends Component {
                             </a>
                         </Button>
                         <CardText>
-                            Event hunters is a web app that allows the user to search for events in their area.
-                        </CardText>
+                            Event Hunters is an event styled app that allows users to search for upcoming events in their area and is designed to help make quick and easy decisions for finding the right pastime.                        </CardText>
                         <CardActions border>
                             <Button colored style={{ width: "100%" }}><a href="https://github.com/anees05/Project-1" rel="noopener noreferrer" target="blank">Github</a></Button>
                         </CardActions>
@@ -53,7 +52,7 @@ class Projects extends Component {
                             </a>
                         </Button>
                         <CardText>
-                            Jobs-R-Us is a web app that allows users to make searches for job information.
+                            RoadTripDJ creates a Spotify playlist for your road trip with musicians from the cities you’re traveling to and from. Discover new music, find local artists, and keep your long drives interesting with RoadTripDJ.
                         </CardText>
                         <CardActions border>
                             <Button colored style={{ width: "100%" }}><a href="https://github.com/Tim1986/RoadTripDJ" rel="noopener noreferrer" target="blank">Github</a></Button>
