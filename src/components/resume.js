@@ -14,10 +14,12 @@ class Resume extends Component {
                             <h2>Anees Adams</h2>
                             <h4 style={{ color: "grey" }}> Full-Stack Web Developer</h4>
                             <hr style={{ borderTop: "3px solid #45a247", width: "50%" }} />
-                            <p>I am a Full-Stack web developer with a background in exercise science.
-                                I earned a certificate in Full Stack Web Development from University of North Carolina at Charlotte.
-                                I use HTML5, CSS3, JavaScript, jQuery, Node.js, MySQL, Sequelize, MongoDB, Mongoose, and Git.
-                                I love UX-Design, logical thinking, and work well with people.</p>
+                            <p>A motivated, ambitious person who has developed a mature and responsible approach to any task that I undertake, or situations that I am presented with.
+                                I am a full-stack Web Developer with a background in Exercise Science.
+                                I eared a certificate in Full-Stack Web Development from the University of North Carolina at Charlotte.
+                                I used HTML5, CSS3, JavaScript, jQuery, Node.js, MySQL, Sequelize, MogoDB, Mongoose, and Git.
+                                I enjoy UX-Design, logical thinking, and working professionally within a team.
+                                I look forward to being able to execute my skills while continuing to learn and develop new techniques that are expected for my career. </p>
                             <hr style={{ borderTop: "3px solid #45a247", width: "50%" }} />
                             <h5>Location</h5>
                             <p>Charlotte, NC</p>
@@ -33,9 +35,15 @@ class Resume extends Component {
                     <Cell className="resume" col={8}>
                         <h2>Education</h2>
                         <Education
-                            date={"June 2019 - September 2019"}
+                            date={"2019"}
                             schoolName="University of North Carolina at Charlotte"
-                            schoolDescription="Full-Stack Web Developer Bootcamp"
+                            schoolDescription="Full-Stack Web Developer Bootcamp Certificate"
+
+                            date2={"2015-2018"}
+                            schoolName2="University of North Carolina at Charlotte"
+
+                            date3={"2013-2015"}
+                            schoolName3="University of North Carolina at Chapel Hill"
                         />
                         <hr style={{ borderTop: "3px solid #45a247" }} />
 
@@ -53,17 +61,7 @@ class Resume extends Component {
                             jobDescription7={"•	Ensure that store operations are correct and provide detailed information for company audits. "}
                         />
 
-                        <Experience
-                            startYear={2015}
-                            endYear={2016}
-                            jobName={"Nike Outlet Footwear Associate"}
-                            jobDescription={"•  Welcomed guests as they entered the store and engage in conversation to determine their shoe buying needs."}
-                            jobDescription2={"•	Provided guests with information on available styles, sizes, and colors."}
-                            jobDescription3={"•	Assist guests with trying on shoes while providing useful feedback."}
-                            jobDescription4={"•	Made sure the shoe department was kept clean and organized."}
-                            jobDescription5={"•	Ran guests through the payment procedure by processing card and cash transactions."}
-                            jobDescription6={"•	Worked with co-workers and supervisors to accomplish goals."}
-                        />
+                        
                         <hr style={{ borderTop: "3px solid #45a247" }} />
                         <h2>Skills</h2>
                         <Skills
