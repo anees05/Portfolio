@@ -16,10 +16,7 @@ class Contact extends Component {
                             style={{ height: "250px" }}
                         />
                         <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-                            I am a front-end web developer with a background in exercise science.
-                            I earned a certificate in Full Stack Web Development from University of North Carolina at Charlotte.
-                            I use HTML5, CSS3, JavaScript, jQuery, Node.js, MySQL, Sequelize, MongoDB, Mongoose, and Git.
-                            I love UX-Design, logical thinking, and work well with people.
+                            A motivated, ambitious person who has developed a mature and responsible approach to any task that I undertake, or situations that I am presented with. I am a full-stack Web Developer with a background in Exercise Science. I earned a certificate in Full-Stack Web Development from the University of North Carolina at Charlotte. I used HTML5, CSS3, JavaScript, jQuery, Node.js, MySQL, Sequelize, MogoDB, Mongoose, and Git. I enjoy UX-Design, logical thinking, and working professionally within a team. I look forward to being able to execute my skills while continuing to learn and develop new techniques that are expected for my career.
                             </p>
                     </Cell>
                     <Cell col={6}>
