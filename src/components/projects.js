@@ -12,11 +12,11 @@ class Projects extends Component {
             return (
                 <div className="projects-grid">
                     <Grid>
-                        <Cell col={4}>
-                            <Card shadow={5} style={{ minWidth: "450", margin: "auto" }} className="project-1">
+                        <Cell col={6}>
+                            <Card shadow={5} style={{ minWidth: "450", margin: "auto", }} className="project-1">
                                 <Button colored style={{ width: "100%", height: "100%" }}>
                                     <a href="https://anees05.github.io/Project-1/" rel="noopener noreferrer" target="blank">
-                                        <CardTitle style={{ color: "#bdc3c7", height: "176px", background: "url(https://snipboard.io/1TFmaG.jpg) center / cover" }}>Project #1
+                                        <CardTitle style={{ color: "#bdc3c7", height: "176px", background: "url(https://snipboard.io/1TFmaG.jpg) center / cover" }}>Event Hunters
                             </CardTitle>
                                     </a>
                                 </Button>
@@ -30,12 +30,31 @@ class Projects extends Component {
                                 </CardMenu>
                             </Card>
 
+                            <Card shadow={5} style={{ minWidth: "450", margin: "auto", marginTop: "30px" }} className="project-1">
+                                <Button colored style={{ width: "100%", height: "100%" }}>
+                                    <a href="https://anees05.github.io/liri-node-app/" rel="noopener noreferrer" target="blank">
+                                        <CardTitle style={{ color: "#bdc3c7", height: "176px", background: "url(https://snipboard.io/R4wYgl.jpg) center / cover" }}>Liri
+                            </CardTitle>
+                                    </a>
+                                </Button>
+                                <CardText>
+                                    The Liri app makes it extremely easy to search the included APIs for information, simply by using the terminal. It currently includes Bands in Town (for upcoming concerts), Spotify (for song information), and OMDB (for movie information).                                    </CardText>
+                                <CardActions border>
+                                    <Button colored style={{ width: "100%" }}><a href="https://github.com/anees05/liri-node-app" rel="noopener noreferrer" target="blank">Github</a></Button>
+                                </CardActions>
+                                <CardMenu style={{ color: "#fff" }}>
+                                </CardMenu>
+                            </Card>
+                        </Cell>
+                    </Grid>
 
 
-                            <Card shadow={5} style={{ minWidth: "450", margin: "auto", marginTop: "30px" }} className="project-2">
+                    <Grid>
+                        <Cell col={6}>
+                            <Card shadow={5} style={{ minWidth: "450", margin: "auto" }} className="project-2">
                                 <Button colored style={{ width: "100%", height: "100%" }}>
                                     <a href="https://anees05.github.io/bamazonCustomer/" rel="noopener noreferrer" target="blank">
-                                        <CardTitle style={{ color: "#bdc3c7", height: "176px", background: "url(https://snipboard.io/um3a6d.jpg) center / cover" }}>Project #2
+                                        <CardTitle style={{ color: "#bdc3c7", height: "176px", background: "url(https://snipboard.io/um3a6d.jpg) center / cover" }}>Bamazon
                             </CardTitle>
                                     </a>
                                 </Button>
@@ -52,7 +71,7 @@ class Projects extends Component {
                             <Card shadow={5} style={{ minWidth: "450", margin: "auto", marginTop: "30px" }} className="project-3">
                                 <Button colored style={{ width: "100%", height: "100%" }}>
                                     <a href="https://glacial-savannah-65289.herokuapp.com/" rel="noopener noreferrer" target="blank">
-                                        <CardTitle style={{ color: "#bdc3c7", height: "176px", background: "url(https://snipboard.io/kauSd3.jpg) center / cover" }}>Project #3
+                                        <CardTitle style={{ color: "#bdc3c7", height: "176px", background: "url(https://snipboard.io/kauSd3.jpg) center / cover" }}>RoadTripDJ
                             </CardTitle>
                                     </a>
                                 </Button>
