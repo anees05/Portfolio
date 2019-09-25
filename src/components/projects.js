@@ -16,7 +16,7 @@ class Projects extends Component {
                             <Card shadow={5} style={{ minWidth: "450", margin: "auto" }} className="project-1">
                                 <Button colored style={{ width: "100%", height: "100%" }}>
                                     <a href="https://anees05.github.io/Project-1/" rel="noopener noreferrer" target="blank">
-                                        <CardTitle style={{ color: "black", height: "176px", background: "url(https://snipboard.io/1TFmaG.jpg) center / cover" }}>Project #1
+                                        <CardTitle style={{ color: "#bdc3c7", height: "176px", background: "url(https://snipboard.io/1TFmaG.jpg) center / cover" }}>Project #1
                             </CardTitle>
                                     </a>
                                 </Button>
@@ -29,36 +29,30 @@ class Projects extends Component {
                                 <CardMenu style={{ color: "#fff" }}>
                                 </CardMenu>
                             </Card>
-                        </Cell>
-                    </Grid>
 
-                    <Grid>
-                        <Cell col={4}>
-                            <Card shadow={5} style={{ minWidth: "450", margin: "auto" }} className="project-2">
+
+
+                            <Card shadow={5} style={{ minWidth: "450", margin: "auto", marginTop: "30px" }} className="project-2">
                                 <Button colored style={{ width: "100%", height: "100%" }}>
-                                    <a href="https://jobs-r-us.herokuapp.com/" rel="noopener noreferrer" target="blank">
-                                        <CardTitle style={{ color: "black", height: "176px", background: "url(https://snipboard.io/IFKXGx.jpg) center / cover" }}>Project #2
+                                    <a href="https://anees05.github.io/bamazonCustomer/" rel="noopener noreferrer" target="blank">
+                                        <CardTitle style={{ color: "#bdc3c7", height: "176px", background: "url(https://snipboard.io/um3a6d.jpg) center / cover" }}>Project #2
                             </CardTitle>
                                     </a>
                                 </Button>
                                 <CardText>
-                                    Jobs-R-Us is a web app that allows users to make searches for job information.
-                        </CardText>
+                                    Bamazon is an Amazon style app that tracks products in a MySQL database in response to Node commands. It allows users to acts as a customer who can buy products from a list, which updates the spreadsheet accordingly.                        </CardText>
                                 <CardActions border>
-                                    <Button colored style={{ width: "100%" }}><a href="https://github.com/anees05/JobStuff2" rel="noopener noreferrer" target="blank">Github</a></Button>
+                                    <Button colored style={{ width: "100%" }}><a href="https://github.com/anees05/bamazonCustomer" rel="noopener noreferrer" target="blank">Github</a></Button>
                                 </CardActions>
                                 <CardMenu style={{ color: "#fff" }}>
                                 </CardMenu>
                             </Card>
-                        </Cell>
-                    </Grid>
 
-                    <Grid>
-                        <Cell col={4}>
-                            <Card shadow={5} style={{ minWidth: "450", margin: "auto" }} className="project-3">
+
+                            <Card shadow={5} style={{ minWidth: "450", margin: "auto", marginTop: "30px" }} className="project-3">
                                 <Button colored style={{ width: "100%", height: "100%" }}>
                                     <a href="https://glacial-savannah-65289.herokuapp.com/" rel="noopener noreferrer" target="blank">
-                                        <CardTitle style={{ color: "black", height: "176px", background: "url(https://snipboard.io/kauSd3.jpg) center / cover" }}>Project #3
+                                        <CardTitle style={{ color: "#bdc3c7", height: "176px", background: "url(https://snipboard.io/kauSd3.jpg) center / cover" }}>Project #3
                             </CardTitle>
                                     </a>
                                 </Button>
