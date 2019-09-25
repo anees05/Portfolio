@@ -107,29 +107,30 @@ class Resume extends Component {
                             startYear={2017}
                             endYear={2019}
                             jobName={"North Face Stock Manager"}
-                            jobDescription={"•  Assists management with transfers, promotions, and unification of work to insure their accuracy"}
-                            jobDescription2={"•	Designate tasks, review work, and provide detailed direction to coworkers guaranteeing that processes are met in established timelines."}
-                            jobDescription3={"•	Assist management with loss prevention efforts, while providing proactive customer service."}
-                            jobDescription4={"•	Professionally identifies areas of improvement and establish innovative work procedures."}
-                            jobDescription5={"•	Ensure proper systems are accurate to support management team with inventory."}
-                            jobDescription6={"•	Assist with inventory preparations and practices."}
-                            jobDescription7={"•	Ensure that store operations are correct and provide detailed information for company audits. "}
+                            jobDescription={"•  Assists management with transfers, promotions, and unification of work to ensure their accuracy for a store of 40 employees."}
+                            jobDescription2={"•	Designates tasks, reviews work, and provides detailed direction to coworkers guaranteeing that standard work processes and timelines."}
+                            jobDescription3={"•	Assists management with loss prevention efforts, while providing proactive customer service."}
+                            jobDescription4={"•	Engages in quality improvement efforts to improve efficiency of product delivery, customer service, etc."}
+                            jobDescription5={"•	Ensures the AS400 system is accurate to support management team with inventory."}
+                            jobDescription6={"•	Ensures that store operations are correct and provides detailed information for company audits. "}
                         />
                         <hr style={{ borderTop: "3px solid #45a247" }} />
                         <h2>Projects</h2>
                         <Bootcamp
                             year={2019}
                             projectName={"RoadTripDJ | Full-Stack Developer"}
-                            coreResponsibilities={"RoadTripDJ creates a Spotify playlist for your road trip with musicians from the cities you are traveling to and from. Discover new music, find local artists, and keep your long drives interesting with RTDJ."}
+                            details={"RoadTripDJ creates a Spotify playlist for your road trip, identifying musicians from the cities you are traveling to and from. Discover new music, find local artists, and keep your long drives interesting with RTDJ."}
+                            responsibilities={"Built Passport authenitication for user login within the app and stored user information in a Mongo database. Created responsive react components and styled components for quality user experience."}
                             tools={"React | Express | Node | Mongo | Mongoose | Passport | Axios | Google Maps API | Spotify API | WikiJS NPM"}
 
 
                             projectName2={"Event Hunters | Full-Stack Developer"}
-                            coreResponsibilities2={"Event Hunters is an event styled app that allows users to search fro upcoming events in their area and is designed to help make quick and easy decisions for finding the right pastime."}
+                            details2={"Event Hunters is an event styled app that allows users to search fro upcoming events in their area and is designed to help make quick and easy decisions for finding the right pastime."}
+                            responsibilities2={"Integrated Weather API and worked heavily on front-end UX/UI."}
                             tools2={"Google Maps API | OpenWeather API | Lodash | HTML | SASS | MomentJS | Bootstrap"}
 
                             projectName3={"Bamazon | Back-End Developer"}
-                            coreResponsibilities3={"Bamazon is an Amazon style app that tracks products in a MySQL database in response to Node commands. It allows users to acts as a customer who can buy products from a list, which updates the spreadsheet accordingly."}
+                            details3={"Bamazon is an Amazon style app that tracks products in a MySQL database in response to Node commands. It allows users to acts as a customer who can buy products from a list, which updates the spreadsheet accordingly."}
                             tools3={"Node | MySQL | Inquirer"}
                         />
                     </Cell>
