@@ -9,7 +9,6 @@ background: linear-gradient(to left, #45a247, #283c86); /* W3C, IE 10+/ Edge, Fi
 background: -webkit-linear-gradient(to left, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 text-align: center;
-position: fixed;
 top: 0;
 left: 0;
 width: 100%;
@@ -23,7 +22,6 @@ height: 100%;
 .contact-body {
   margin: auto;
   background: white;
-  position: fixed;
   width: 100%;
   height: 100%;
   justify-content: center;
@@ -34,11 +32,11 @@ height: 100%;
   text-align: center;
   justify-content: center;
   width: 80%;
-  height: 550px;
+  min-height: 550px;
   background: white;
   color: black;
   border: 4px solid #283c86;
-  margin-bottom: 20px;
+  margin: 0 auto 30px auto !important;
 }
 
 .contact-grid h2 {
