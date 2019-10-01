@@ -30,7 +30,24 @@ class Projects extends Component {
                                 </CardMenu>
                             </Card>
 
-                            <Card shadow={5} style={{ minWidth: "450", margin: "auto", marginTop: "30px" }} className="project-1">
+                            <Card shadow={5} style={{ minWidth: "450", margin: "auto", marginTop: "30px" }} className="project-2">
+                                <Button colored style={{ width: "100%", height: "100%" }}>
+                                    <a href="https://anees05.github.io/Gif/" rel="noopener noreferrer" target="blank">
+                                        <CardTitle style={{ color: "#bdc3c7", height: "176px", background: "url(https://snipboard.io/iOU04f.jpg) center / cover" }}>Giphy
+                            </CardTitle>
+                                    </a>
+                                </Button>
+                                <CardText>
+                                    Giphy is an application that allows users to watch gifs about different sports teams. The user is able to pick favorite gifs to save for later as well as add their own gif buttons.
+                                </CardText>
+                                <CardActions border>
+                                    <Button colored style={{ width: "100%" }}><a href="https://github.com/anees05/Gif" rel="noopener noreferrer" target="blank">Github</a></Button>
+                                </CardActions>
+                                <CardMenu style={{ color: "#fff" }}>
+                                </CardMenu>
+                            </Card>
+
+                            <Card shadow={5} style={{ minWidth: "450", margin: "auto", marginTop: "30px" }} className="project-3">
                                 <Button colored style={{ width: "100%", height: "100%" }}>
                                     <a href="https://anees05.github.io/liri-node-app/" rel="noopener noreferrer" target="blank">
                                         <CardTitle style={{ color: "#bdc3c7", height: "176px", background: "url(https://snipboard.io/R4wYgl.jpg) center / cover" }}>Liri
@@ -51,7 +68,7 @@ class Projects extends Component {
 
                     <Grid>
                         <Cell col={6}>
-                            <Card shadow={5} style={{ minWidth: "450", margin: "auto" }} className="project-2">
+                            <Card shadow={5} style={{ minWidth: "450", margin: "auto" }} className="project-4">
                                 <Button colored style={{ width: "100%", height: "100%" }}>
                                     <a href="https://anees05.github.io/bamazonCustomer/" rel="noopener noreferrer" target="blank">
                                         <CardTitle style={{ color: "#bdc3c7", height: "176px", background: "url(https://snipboard.io/um3a6d.jpg) center / cover" }}>Bamazon
@@ -68,7 +85,7 @@ class Projects extends Component {
                             </Card>
 
 
-                            <Card shadow={5} style={{ minWidth: "450", margin: "auto", marginTop: "30px" }} className="project-3">
+                            <Card shadow={5} style={{ minWidth: "450", margin: "auto", marginTop: "30px" }} className="project-5">
                                 <Button colored style={{ width: "100%", height: "100%" }}>
                                     <a href="https://glacial-savannah-65289.herokuapp.com/" rel="noopener noreferrer" target="blank">
                                         <CardTitle style={{ color: "#bdc3c7", height: "176px", background: "url(https://snipboard.io/kauSd3.jpg) center / cover" }}>RoadTripDJ
