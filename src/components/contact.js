@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
-import Image from "./IMG_3650.png"
+import Image from "./IMG_6637 copy.jpg"
 
 
 class Contact extends Component {
