@@ -81,10 +81,23 @@ class Resume extends Component {
                                 skill="Mongoose"
                                 progress={81}
                             />
+
+                            <h4>Education</h4>
+                            <Education
+                                date={"2019"}
+                                schoolName="University of North Carolina at Charlotte"
+                                schoolDescription="Full-Stack Web Developer Bootcamp Certificate"
+
+                                date2={"2015-2018"}
+                                schoolName2="University of North Carolina at Charlotte"
+
+                                date3={"2013-2015"}
+                                schoolName3="University of North Carolina at Chapel Hill"
+                            />
                         </div>
                     </Cell>
                     <Cell className="resume" col={8}>
-                        <h2>Education</h2>
+                        {/* <h2>Education</h2>
                         <Education
                             date={"2019"}
                             schoolName="University of North Carolina at Charlotte"
@@ -96,7 +109,7 @@ class Resume extends Component {
                             date3={"2013-2015"}
                             schoolName3="University of North Carolina at Chapel Hill"
                         />
-                        <hr style={{ borderTop: "3px solid #45a247" }} />
+                        <hr style={{ borderTop: "3px solid #45a247" }} /> */}
 
                         <h2>Experience</h2>
                         <Experience
@@ -119,7 +132,6 @@ class Resume extends Component {
                             responsibilities={"Built Passport authenitication for user login within the app and stored user information in a Mongo database. Created responsive react components and styled components for quality user experience."}
                             tools={"React | Express | Node | Mongo | Mongoose | Passport | Axios | Google Maps API | Spotify API | WikiJS NPM"}
 
-
                             projectName2={"Event Hunters | Full-Stack Developer"}
                             details2={"Event Hunters is an event styled app that allows users to search fro upcoming events in their area and is designed to help make quick and easy decisions for finding the right pastime."}
                             responsibilities2={"Integrated Weather API and worked heavily on front-end UX/UI."}
@@ -128,6 +140,18 @@ class Resume extends Component {
                             projectName3={"Bamazon | Back-End Developer"}
                             details3={"Bamazon is an Amazon style app that tracks products in a MySQL database in response to Node commands. It allows users to acts as a customer who can buy products from a list, which updates the spreadsheet accordingly."}
                             tools3={"Node | MySQL | Inquirer"}
+
+                            projectName4={"Giphy | Full-Stack Developer"}
+                            details4={"Giphy is an application that allows users to watch gifs about different sports teams. The user is able to pick favorite gifs to save for later as well as add their own gif buttons."}
+                            tools4={"HTML | CSS | jQuery"}
+
+                            projectName5={"Liri | Back-End Developer"}
+                            details5={"The Liri app makes it extremely easy to search the included APIs for information, simply by using the terminal. It currently includes Bands in Town (for upcoming concerts), Spotify (for song information), and OMDB (for movie information)."}
+                            tools5={"Node"}
+
+                            projectName6={"Friend Finder | Full-Stack Developer"}
+                            details6={"Friend Finder is an application that best matches you with your superhero friend. The user takes a short survey and based on their answers they will see their superhero."}
+                            tools6={"HTML | CSS | Express "}
                         />
                     </Cell>
                 </Grid>

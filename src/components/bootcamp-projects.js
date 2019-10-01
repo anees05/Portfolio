@@ -37,6 +37,27 @@ class Bootcamp extends Component {
                         <hr style={{ borderTop: "3px solid #45a247", width: "50%" }} />
                         {this.props.tools3}
                     </p>
+
+                    <h4 style={{ marginTop: "0px" }}>{this.props.projectName4}</h4>
+                    <p>{this.props.details4}
+                        <br />
+                        <hr style={{ borderTop: "3px solid #45a247", width: "50%" }} />
+                        {this.props.tools4}
+                    </p>
+
+                    <h4 style={{ marginTop: "0px" }}>{this.props.projectName5}</h4>
+                    <p>{this.props.details5}
+                        <br />
+                        <hr style={{ borderTop: "3px solid #45a247", width: "50%" }} />
+                        {this.props.tools5}
+                    </p>
+
+                    <h4 style={{ marginTop: "0px" }}>{this.props.projectName6}</h4>
+                    <p>{this.props.details6}
+                        <br />
+                        <hr style={{ borderTop: "3px solid #45a247", width: "50%" }} />
+                        {this.props.tools6}
+                    </p>
                 </Cell>
             </Grid>
         )
