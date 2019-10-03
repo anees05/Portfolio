@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
-import Image from "./IMG_6637 copy.jpg"
+import Image from "./IMG_6637 copy.jpeg"
 
 class Home extends Component {
     render() {
