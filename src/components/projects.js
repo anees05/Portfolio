@@ -104,7 +104,7 @@ class Projects extends Component {
 
                             <Card shadow={5} style={{ minWidth: "450", margin: "auto", marginTop: "30px" }} className="project-5">
                                 <Button colored style={{ width: "100%", height: "100%" }}>
-                                    <a href="https://radiant-thicket-59760.herokuapp.com/" rel="noopener noreferrer" target="blank">
+                                    <a href="https://mysterious-thicket-76323.herokuapp.com" rel="noopener noreferrer" target="blank">
                                         <CardTitle style={{ color: "#bdc3c7", height: "176px", background: "url(https://snipboard.io/5srN4B.jpg) center / cover" }}>Friend Finder
                             </CardTitle>
                                     </a>
