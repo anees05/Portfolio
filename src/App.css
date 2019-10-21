@@ -13,6 +13,7 @@ top: 0;
 left: 0;
 width: 100%;
 height: 100%;
+word-wrap: break-word;
 }
 
 .home-grid img {
@@ -85,7 +86,7 @@ height: 100%;
 }
 
 .banner-text h1 {
-  font-size: 66px;
+  font-size: 64px;
   font-weight: bold;
   color: white;
 }
